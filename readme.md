@@ -1,7 +1,7 @@
 <h1> Authorizer </h1>
 
 <p>Esse projeto foi criado com o intuito de realizar verificações de transações bancárias de compras
-seguindo as regras propostas pelo nubank</p>
+seguindo as regras propostas pela instituição bancária</p>
 
 <h2>How to Run</h2>
 
