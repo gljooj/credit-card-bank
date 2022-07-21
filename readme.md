@@ -1,13 +1,13 @@
 <h1> Authorizer </h1>
 
-<p>Esse projeto foi criado com o intuito de realizar verificações de transações bancárias de compras
-seguindo as regras propostas pela instituição bancária</p>
+<p>
+This Project was created with the objective of carry out banking transaction follow the rules proposed by the bank instituition</p>
+
 
 <h2>How to Run</h2>
 
-<h3> Preparando o ambiente</h3>
-<p> Como não é algo tão complexo o ambiente ficou mais preparado para 
-realizar os testes</p>
+<h3> Preparing the environment</h3>
+<p> How is nothing too complex the environment is more prepared for perform tests</p>
 
 <p> Execute:</p>
 
@@ -15,22 +15,24 @@ realizar os testes</p>
 2 - `source .venv/bin/activate` <br>
 2 - `pip install -r requirements.txt` <br>
 
-<p>Para executar o projeto você deve executar na raiz do projeto o seguinte comando:</p>
+<p>To execute the project you must execute on the root project the follow command:</p>
 
 `python3 authorizator.py < operations` <br>
 
-<p> Para verificar todos os testes proposto você deve acessar em tests/test.py <br> 
-e então executar o run (preferencia pycharm) </p>
+<p> To verify all the tests proposed you must 
+  access the tests/test.py and execute the run(pytest) or use a framework (preference pycharm)</p>
 
-<h1> Explicando o projeto</h1>
+<h1> Explaining the project</h1>
 
 <h2> infrastructure/Authorizer.py</h2>
-Este arquivo seria a camada de primeira autorização, onde o estabelecimento/maquininha tem liberdade em saber
-o estado do cartão do cliente ou se aquele cartão é válido.
+This file is the firs authorization layer, where the establishment/credit card machine have the freedom to know 
+the status of client's credit card or know if the is a valid credit card.
 
 <h1> infrastructure/Account.py</h1>
-Este arquivo seria a camadada de conta, já aqui o app executa os processos de capturas de erros internos
-como por exemplo se tem limite ou não para aquela compra, range de compra e dupla compra.
+
+This file is the account layer, here the app execute the process of captures of credit card errors for example:
+if have the limit to buy something, range buy or duplicate buy.
 
 <h1> infrastructure/ToolsAccount.py</h1>
 Este arquivo seria como um helper para o Account, nele tem algumas ferramentas de ajuda para o Account.
+This File is a helper to the account, here have some helper tools for the Account 
