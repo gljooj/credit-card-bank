@@ -32,7 +32,7 @@ This Project was created with the objective of carry out banking transaction fol
 <h1> Explaining the project</h1>
 
 <h2> infrastructure/Authorizer.py</h2>
-This file is the firs authorization layer, where the establishment/credit card machine have the freedom to know 
+This file is the firsT authorization layer, where the establishment/credit card machine have the freedom to know 
 the status of client's credit card or know if the is a valid credit card.
 
 <h1> infrastructure/Account.py</h1>
@@ -41,5 +41,4 @@ This file is the account layer, here the app execute the process of captures of 
 if have the limit to buy something, range buy or duplicate buy.
 
 <h1> infrastructure/ToolsAccount.py</h1>
-Este arquivo seria como um helper para o Account, nele tem algumas ferramentas de ajuda para o Account.
-This File is a helper to the account, here have some helper tools for the Account 
+This file it's like a helper for the Account, here has some tools for help the Account.
