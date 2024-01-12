@@ -11,9 +11,12 @@ This Project was created with the objective of carry out banking transaction fol
 
 <p> Execute:</p>
 (os & Linux)
+
 1 - `virtualenv .venv` <br>
 2 - `source .venv/bin/activate` <br>
+
 (Windows)
+
 1 - `python -m venv .venv` <br>
 2 - `source .venv/Scripts/activate` <br>
 
