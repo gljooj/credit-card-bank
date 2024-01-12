@@ -10,10 +10,14 @@ This Project was created with the objective of carry out banking transaction fol
 <p> How is nothing too complex the environment is more prepared for perform tests</p>
 
 <p> Execute:</p>
-
+(os & Linux)
 1 - `virtualenv .venv` <br>
 2 - `source .venv/bin/activate` <br>
-2 - `pip install -r requirements.txt` <br>
+(Windows)
+1 - `python -m venv .venv` <br>
+2 - `source .venv/Scripts/activate` <br>
+
+3 - `pip install -r requirements.txt` <br>
 
 <p>To execute the project you must execute on the root project the follow command:</p>
 
