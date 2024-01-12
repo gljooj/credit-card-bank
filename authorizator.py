@@ -10,8 +10,10 @@ for operation in fileinput.input():
     operation = operation.replace('\n', '')
     if "account" in operation:
         account = operation
-        bank_account = auth.create_account(account)
-        print(bank_account.json_body())
+        bank_account = auth.start_account(account)
+        print(f"bank account: {bank_account.json_body()} \n")
         continue
-    print(auth.authorization_operations(bank_account, operation))
 
+    print(f"operation: {operation} \n"
+          f'operation_response: {auth.authorization_operations(bank_account, operation)} \n'
+          )

@@ -6,7 +6,7 @@ class Authorizer:
     def __init__(self, last_bank_account):
         self.last_bank_account = last_bank_account
 
-    def create_account(self, account_bank):
+    def start_account(self, account_bank):
         json_account = json.loads(account_bank)
         new_account = json_account.get('account', '')
         if self.last_bank_account:
@@ -34,6 +34,5 @@ class Authorizer:
         has_error = self.verify_possibles_errors()
         if has_error.get("has_error"):
             return self.error(has_error)
-
         return bank_account_client.check_operation(operation)
 
